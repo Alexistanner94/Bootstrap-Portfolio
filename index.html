@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>About</title>
-</head> 
-<link rel="stylesheet"
- href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-  crossorigin="anonymous">
+</head>
 
-<body>
+
+<body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Alexis Tanner</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="name">Alexis Tanner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-link">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-    </a>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav" style="width: 100px;">
+            <ul class="navbar-nav float-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 id="header"> About Me </h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <section>
+
+                    <img class="blondelocs float-right" src="assets/portfolio-about-me.png" alt="">
+
+                    <p>
+                        My Name is Alexis Tanner, but my friends call me Lex!
+                        I was born and raised in Atlanta, Georgia, where
+                        I still currently reside.
+                        A few of my many hobbies are eating, sleeping,
+                        shopping, and traveling.
+                        My next big trip is going to be to Brazil and I am so elated.
+                    </p>
+                    <p>
+                        I currently work for Best Buy's very own Geek Squad, as a Subject Matter Expert.
+                        I have been with Geek Squad for almost three years and I learn something new
+                        everyday.
+                        My job is exciting because it allows me to exercise my problem solving and
+                        critical
+                        thinking skills with real-live scenarios. Soon, I plan to start a tech company,
+                        mainly focusing my services on installations, web/program design, advertising,
+                        software troubleshooting, and technical support.
+                    </p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <footer class="text-center footer mt-auto py-3" id="footer"> Copyright </footer>
 </body>
+
 </html>
