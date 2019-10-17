@@ -50,7 +50,7 @@ section {
     margin: 20px;
     background: grey;
     width: 200px;
-    height: 200px;
+    height: 250px;
     float :left;} 
 
 .Sndbox {
@@ -58,7 +58,7 @@ section {
     margin: 20px;
     background: black;
     width: 200px;
-    height: 200px;
+    height: 250px;
     float : left; 
 }
 .Trdbox {
@@ -66,8 +66,8 @@ section {
     margin: 20px;
     background: yellow;
     width: 200px;
-    height: 200px;
-    float :left;
+    height: 250px;
+    float :right;
 }
 
 .Fthbox {
@@ -75,7 +75,7 @@ section {
     margin: 20px;
     background: hotpink;
     width: 200px ;
-    height: 200px ;
+    height: 250px ;
     float :right;
 }
 .Fithbox {
@@ -83,8 +83,8 @@ section {
     margin: 20px;
     background:green;
     width: 200px;
-    height: 200px;
-    float :left;
+    height: 250px;
+    float :right;
 }
 #contact-form {
     background: wheat;
